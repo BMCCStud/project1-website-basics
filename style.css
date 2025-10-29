@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Sacramento&display=swap');
 /* Root typography settings */
 html{
 /*   set the following properties: 
@@ -7,24 +8,64 @@ html{
   color- primary text color for the site
   background-color - primary background color for the site */
 
-  
+  /* Base font for the whole page */
+body {
+  font-family: "Arbutus Slab", serif;
+  font-size: 60px;
+  line-height: 1.6;
+}
+
+body {background: #DFD8D8;color: #000; margin-left: auto; margin-right: auto;width: 70ch;}
+
+ul {
+  list-style-type: disc; 
+  margin-left: 20px;
+  display: block;
+}
+
+ol {
+  list-style-type: decimal; 
+  margin-left: 20px;
+  display: block;
 }
 
 /* General heading styles */
-h1, h2, h3, h4, h5, h6{
-  set font styles for all of your headings, for example font-weight, line-height, font-family
+h1, h2, h3, h4, h5, h6 {
+  /* set font styles for all of your headings, for example, font-weight, line-height, font-family */
+  font-family: Merriweather;
+  font-size: 100px;
+  font-style: italic;
+  font-weight: 700;
 }
+
+/* Link styles */
+a {
+  color: #7a0716;}
+  a:hover{color: #482525;}
+
 
 /* Specific element text styles */
 h1{
   /*   this is the page title */
+color: #000;
+font-family: Merriweather;
+font-size: 100px;
+font-style: normal;
+font-style: italic;
 }
-
 h2{
   
 }
-
+/* -------------  Header styles ------------------------- */
+header {
+  display: flex;
+  justify-content: space-between; /* site title left, nav right */
+  align-items: center;           /* vertical centering */
+  padding: 1rem;
+}
+/* ------------- END Header styles  */
 p{
 
   margin-bottom: 1rem; /* optional but usually good to have a space between paragraphs */
+}
 }
