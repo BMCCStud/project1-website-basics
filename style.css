@@ -11,7 +11,7 @@ html{
   /* Base font for the whole page */
 body {
   font-family: "Arbutus Slab", serif;
-  font-size: 60px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
@@ -32,15 +32,13 @@ ol {
 /* General heading styles */
 h1, h2, h3, h4, h5, h6 {
   /* set font styles for all of your headings, for example, font-weight, line-height, font-family */
-  font-family: Merriweather;
-  font-size: 100px;
+  font-family: Merriweather,serif;
   font-style: italic;
-
-
-
   font-weight: 700;
 }
-
+h1{ font-size: 3rem;} 
+h2{font-size: 2rem;} 
+h3{font-size: 1.75rem;}
 /* Link styles */
 a {
   color: #7a0716;}
