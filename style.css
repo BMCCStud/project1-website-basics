@@ -35,6 +35,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Merriweather;
   font-size: 100px;
   font-style: italic;
+
+
+
   font-weight: 700;
 }
 
@@ -69,3 +72,5 @@ p{
   margin-bottom: 1rem; /* optional but usually good to have a space between paragraphs */
 }
 }
+
+
