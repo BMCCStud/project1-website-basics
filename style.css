@@ -44,26 +44,23 @@ a {
   color: #7a0716;}
   a:hover{color: #482525;}
 
-
 /* Specific element text styles */
-h1{
-  /*   this is the page title */
-color: #000;
-font-family: Merriweather;
-font-size: 100px;
-font-style: normal;
-font-style: italic;
-}
-h2{
-  
-}
 /* -------------  Header styles ------------------------- */
 header {
   display: flex;
-  justify-content: space-between; /* site title left, nav right */
+  justify-content: center; /* site title left, nav right */
   align-items: center;           /* vertical centering */
   padding: 1rem;
+  flex-direction: column;
+  gap: 40px;                     /* space between site title and nav */
 }
+nav ul {
+  display: flex;
+  gap: 3rem;                     /* space between nav items */
+  padding: 0;
+  margin: 0;
+  list-style: none;              /* remove default list styling */
+} 
 /* ------------- END Header styles  */
 p{
 
